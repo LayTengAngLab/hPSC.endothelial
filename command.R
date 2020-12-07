@@ -1,0 +1,8 @@
+library(hPSC.endothelial)
+viewMyData()
+library(roxygen2)
+library("devtools")
+load("/Users/LTANG/Downloads/hPSC.endothelial/inst/PSC-Endothelial.RData")
+getwd()
+document()
+rm(list = c("viewMyData"))
